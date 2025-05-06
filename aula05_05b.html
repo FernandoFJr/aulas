@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Display e borda</title>
+    <style>
+        #containerPai{
+            /*background-color: #1D2F6F;*/
+            width: 1000px;
+            height: 600px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .Filho{
+            /*background-color: #1D1E2C;*/
+            width: 300px;
+            height: 400px;
+            /*border: 7px solid #BB0A21;*/
+            border-radius: 22px;
+            box-shadow: 22px 22px 30px #C81D25;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .Neto{
+            background-color: #1B98E0;
+            width: 150px;
+            height: 200px;
+            border-radius: 22px;
+            box-shadow: 22px 22px 30px #C81D25;
+            margin-top: 22px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="containerPai">
+            <div class="Filho">
+                <div class="Neto"></div>
+            </div>
+            <div class="Filho">
+                <div class="Neto"></div>
+            </div>
+            <div class="Filho">
+                <div class="Neto"></div>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
